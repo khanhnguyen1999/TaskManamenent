@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "name": "Complete project proposal",
+      "description": "Write and submit the project proposal by Friday",
+      "status": "complete"
+    },
+    {
+      "id": "2",
+      "name": "Review code changes",
+      "description": "Review pull requests for the frontend updates",
+      "status": "incomplete"
+    },
+    {
+      "id": "3",
+      "name": "Update documentation",
+      "description": "Update API documentation with new endpoints",
+      "status": "incomplete"
+    },
+    {
+      "id": "4",
+      "name": "Fix login bug",
+      "description": "Investigate and fix user authentication issues",
+      "status": "incomplete"
+    },
+    {
+      "id": "5",
+      "name": "Deploy to staging",
+      "description": "Deploy latest changes to staging environment",
+      "status": "incomplete"
+    },
+    {
+      "id": "6",
+      "name": "Schedule team meeting",
+      "description": "Set up weekly sprint planning meeting with the development team",
+      "status": "complete"
+    }
+  ]
+}

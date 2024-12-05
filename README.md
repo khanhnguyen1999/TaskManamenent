@@ -1,46 +1,58 @@
-# Getting Started with Create React App
+# Task Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a comprehensive task management application built with React, Redux, and Tailwind CSS. It allows users to create, edit, delete, and filter tasks, as well as toggle between light and dark modes.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+1. [Features](#features)
+2. [Prerequisites](#prerequisites)
+3. [Setting up the Application](#setting-up-the-application)
+4. [Running the Application](#running-the-application)
+5. [Running Tests](#running-tests)
+6. [Project Structure](#project-structure)
+7. [Component Breakdown](#component-breakdown)
+8. [State Management](#state-management)
+9. [Styling Approach](#styling-approach)
+10. [Development Workflow](#development-workflow)
+11. [Environment Variables](#environment-variables)
+12. [Deployment](#deployment)
+13. [Contributing](#contributing)
+14. [Important Technical Decisions](#important-technical-decisions)
+15. [Future Improvements](#future-improvements)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Create, edit, and delete tasks
+- Mark tasks as complete or incomplete
+- Filter tasks by status (all, incomplete, complete)
+- Pagination for task list
+- Dark mode toggle
+- Responsive design
+- Unit testing with Jest and React Testing Library
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Before you begin, ensure you have met the following requirements:
 
-### `npm test`
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later) or yarn (v1.22.0 or later)'
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setting up the Application
 
-### `npm run build`
+1. Clone the repository
+2. Install dependencies: `npm install` or `yarn install`
+3. Start the development: `npm run start` or `yarn start`
+4. Start the development server: `npm run server` or `yarn server`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technical Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Frontend
+- **React 18** - UI library
+- **Redux Toolkit** - State management
+- **React Router v6** - Routing and navigation
+- **Tailwind CSS** - Styling and UI components
+- **TypeScript** - Type safety and developer experience
 
-### `npm run eject`
+## Backend & API Integration
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### JSON Server Setup
+The application uses `json-server` as a mock backend to provide a full REST API. Data is stored in a `db.json` file.
